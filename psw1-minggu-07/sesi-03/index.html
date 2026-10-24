@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Pertama Saya</title>
+    <link rel="stylesheet" href="style.css">
+</head> 
+
+<body>
+    <header>
+        <h1>Selamat Datang</h1>
+        <p>Halaman pertama Pengembangan Situs Web I.</p>
+    </header>
+
+    <nav aria-label="Navigasi utama">
+        <ul class="nav-list">
+            <li><a href="index.html">Beranda</a></li>
+            <li><a href="kegiatan.html">Kegiatan</a></li>
+            <li><a href="daftar.html">Daftar</a></li>
+        </ul>
+    </nav>
+        
+    <main>
+        <section id="profil">
+            <h2>Profil Singkat</h2>
+            <img src="Molang.png" alt="Foto profil Petra" width="900">
+            <p>Molang.</p>
+
+            <button type="button" id="greeting-button">
+                Tampilkan salam
+            </button>
+        </section>
+
+        <section id="kegiatan">
+            <h2>Kegiatan Mahasiswa</h2>
+            <p>Ini adalah fitur petunjuk.</p>
+
+            <div class="catalog">
+                <article class="card">
+                    <h3>Lokakarya HTML</h3>
+                    <p>Belajar struktur.</p>
+                    <a href="#">Detail</a>
+                </article>
+
+                <article class="card">
+                    <h3>Diskusi CSS</h3>
+                    <p>Belajar tampilan.</p>
+                    <a href="#">Detail</a>
+                </article>
+
+                <article class="card">
+                    <h3>Audit Web</h3>
+                    <p>Menguji kualitas.</p>
+                    <a href="#">Detail</a>
+                </article>
+
+                <article class="card">
+                    <h3>Diskusi main.js</h3>
+                    <p>Belajar JavaScript.</p>
+                    <a href="#">Detail</a>
+                    </article>
+
+                    <article class="card">
+                    <h3>Belajar Mandiri</h3>
+                    <p>Belajar Mandiri.</p>
+                    <a href="#">Detail</a>
+                </article>
+            </div>
+        </section>
+        <form>  
+    <p>
+        <label for="pesan">Anggap  pesan ini adalah pesan yang sangat panjang hingga menembus langit ke tujuh dan jatuh berenang di udara dan berlari di air kolam aquarum</label><br>
+        <input type="text" id="pesan" name="pesan">
+    </p>
+    <button type="button">Kirim</button>
+</form> 
+
+        <section id="kontak">
+            <h2>Kontak</h2>
+            <p>Halo ges.</p>
+        </section>
+    </main>
+    
+
+    <footer>
+        <p>Dibuat untuk praktikum Pengembangan Situs Web I.</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
